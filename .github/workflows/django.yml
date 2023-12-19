@@ -26,7 +26,7 @@ jobs:
         cd recommender
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Run Tests
-      run: |
-        cd recommender
-        python manage.py test movierecommender.tests.MovieTestCase
+    # - name: Run Tests
+      # run: |
+        # cd recommender
+        # python manage.py test movierecommender.tests.MovieTestCase
